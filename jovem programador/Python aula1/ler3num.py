@@ -9,3 +9,6 @@ elif n2 > n1 and n2 > n3:
     print(f'{n2} é maior que {n1} e que {n3}')
 elif n3 > n1 and n3 > n2:
     print(f'{n3} é maior que {n1} e {n2}')
+
+
+    print 
