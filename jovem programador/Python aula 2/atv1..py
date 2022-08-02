@@ -4,4 +4,7 @@ resposta_certa = 10+5
 resporta_usuario= int(input('Quanto é 10+5? '))
 while resposta_certa != resporta_usuario:
     print('Você errou, tente novamente: ')
-    break
+    resporta_usuario= int(input('Quanto é 10+5? '))
+    if resposta_certa == resporta_usuario:
+        print('Você acertou')
+    

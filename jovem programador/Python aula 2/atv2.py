@@ -38,10 +38,12 @@ while sexo != 'f' and sexo != 'm':
 estado_civil=input('Qual seu estado civil? (s/c/v/d)? ').lower()
 
 
-while estado_civil != 's' and estado_civil != 'c' and estado_civil != 'v' and estado_civil != 'd':
+while estado_civil != 's' or estado_civil != 'c' or estado_civil != 'v' or estado_civil != 'd':
 
     print('Tente novamente seu estado civil')
     estado_civil=input('Qual seu estado civil? (s/c/v/d)? ').lower()
+    if estado_civil == 's' or estado_civil== 'c' or estado_civil == 'v' or estado_civil == 'd':
+        print('Cadastrado com sucesso!')
 
 
 
