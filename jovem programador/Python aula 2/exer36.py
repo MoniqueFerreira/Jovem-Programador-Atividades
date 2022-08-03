@@ -10,13 +10,13 @@
 #5 X 7 = 35
 
 t=int(input('digite qual numero da tabuada vc quer: '))
-i=int(input('digite qual numero quer iniciar: '))
-f=int(input('digite qual numero quer finalizar: '))
-if i <f:
+ni=int(input('digite qual numero quer iniciar: '))
+nf=int(input('digite qual numero quer finalizar: '))
+if nf <ni:
     print('Valor final menor que o inicial ')
-  
-for x in range(i,f):
-    while print != n:
-     print(f'{t*x}')
+else:
+    for i in range(ni,nf+1):
+        print(f'{t}x{i}={t*i}')
+
 
 
