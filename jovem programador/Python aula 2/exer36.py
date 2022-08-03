@@ -17,7 +17,6 @@ if i <f:
   
 for x in range(i,f):
     while print != n:
-    
-print(f'{t*x}')
+     print(f'{t*x}')
 
 
